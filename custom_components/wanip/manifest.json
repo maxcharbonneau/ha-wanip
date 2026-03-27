@@ -1,0 +1,13 @@
+{
+  "domain": "wanip",
+  "name": "WANIP",
+  "codeowners": [
+    "@maxcharbonneau"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/maxcharbonneau/ha-wanip",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/maxcharbonneau/ha-wanip/issues",
+  "version": "0.1.0"
+}

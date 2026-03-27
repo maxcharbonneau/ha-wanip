@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "If you need help with the configuration have a look at the [documentation]({documentation_url})."
+      }
+    },
+    "error": {
+      "connection": "Unable to connect to the server.",
+      "unknown": "Unknown error occurred."
+    },
+    "abort": {
+      "already_configured": "This entry is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Integration Options",
+        "description": "Customize how this integration operates.",
+        "data": {
+          "update_interval_hours": "Update interval (hours)",
+          "enable_debugging": "Enable debug logging"
+        },
+        "data_description": {
+          "update_interval_hours": "How often to refresh data from the API (0.25 to 24 hours)",
+          "enable_debugging": "Enable detailed debug logging for troubleshooting"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "update_failed": {
+      "message": "Failed to update data from the server."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wan_ip": {
+        "name": "WAN IP Address"
+      }
+    }
+  }
+}
